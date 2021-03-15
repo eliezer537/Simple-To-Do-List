@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="./main.js" defer></script>
+		<title>ToDo</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<img src="./assets/check-square.svg" alt="logo" />
+				<h1>Note.it</h1>
+			</header>
+			<div class="content">
+				<form>
+					<div class="input-content">
+						<input type="checkbox" id="input-id" />
+						<input type="text" placeholder="Insira uma nota..." autofocus required />
+						<img src="./assets/trash.svg" alt="lixeira" onclick="handleItemDeletion(this)" />
+					</div>
+					<button>+</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
